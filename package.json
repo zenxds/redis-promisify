@@ -1,0 +1,32 @@
+{
+  "name": "redis-promisify",
+  "version": "0.1.0",
+  "description": "promisify redis commands with util.promisify",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zenxds/redis-promisify.git"
+  },
+  "keywords": [
+    "redis",
+    "promise",
+    "promisify"
+  ],
+  "author": "zenxds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zenxds/redis-promisify/issues"
+  },
+  "homepage": "https://github.com/zenxds/redis-promisify#readme",
+  "dependencies": {
+    "redis": "^2.7.1",
+    "redis-commands": "^1.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
