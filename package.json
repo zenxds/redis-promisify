@@ -1,6 +1,6 @@
 {
   "name": "redis-promisify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "promisify redis commands with util.promisify",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
     "promise",
     "promisify"
   ],
+  "engines" : {
+    "node": ">= 8.0.0"
+  },
   "author": "zenxds",
   "license": "ISC",
   "bugs": {
