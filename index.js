@@ -7,7 +7,8 @@ promisify(redis.Multi.prototype, ['exec', 'execAtomic'])
 
 function promisify(obj, methods) {
   methods.forEach((method) => {
-    obj[method + 'Async'] = util.promisify(obj[method])
+    if (obj[method])
+      obj[method + 'Async'] = util.promisify(obj[method])
   })
 }
 
