@@ -1,6 +1,6 @@
 {
   "name": "redis-promisify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "promisify redis commands with util.promisify",
   "main": "index.js",
   "scripts": {
